@@ -1,0 +1,126 @@
+/* Landingstyle.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.bg-hero {
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.sub-heading {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #00bfff, #8a2be2, #ee82ee, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 10s ease infinite; /* Add this line */
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.lead-typed {
+  font-size: 1.5em;
+  margin-bottom: 60px;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+  animation: slideInUp 1s ease;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.btn-primary {
+  background-color: #0080ff; /* Update the background color to a solid color */
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  margin: 0 auto;
+}
+
+.btn-primary:hover {
+  background-color: #6a1b9a; /* Update the background color on hover to a different solid color */
+  transform: scale(1.05);
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typeIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.type-in {
+  animation: typeIn 2s ease-out;
+  word-wrap: break-word;
+}
