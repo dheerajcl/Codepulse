@@ -98,7 +98,7 @@ const EditorPage = () => {
                     <div className="logo">
                         <img
                             className="logoImage"
-                            src="/code-sync.png"
+                            src="/icon.png"
                             alt="logo"
                         />
                     </div>
@@ -112,12 +112,14 @@ const EditorPage = () => {
                         ))}
                     </div>
                 </div>
-                <button className="btn copyBtn" onClick={copyRoomId}>
+                <div className="button-container">
+                <button className="btn copy-btn" onClick={copyRoomId}>
                     Copy ROOM ID
                 </button>
-                <button className="btn leaveBtn" onClick={leaveRoom}>
+                <button className="btn leave-btn" onClick={leaveRoom}>
                     Leave
                 </button>
+                </div>
             </div>
             <div className="editorWrap">
                 <Editor
