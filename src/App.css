@@ -1,68 +1,3 @@
-.homePageWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  height: 100vh;
-}
-
-.formWrapper {
-  background: rgba(0, 0, 0, 0.3); /* Black with 60% opacity */
-  padding: 40px; /* Increased padding for more space */
-  border-radius: 15px; /* Rounded corners for a softer look */
-  width: 400px;
-  max-width: 90%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-  text-align: center; /* Center-align the content */
-  color: #fff; /* White text color */
-}
-
-.mainLabel {
-  margin-bottom: 20px;
-  font-size: 18px; /* Increase font size for the main label */
-}
-
-.inputBox {
-  padding: 14px;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  margin-bottom: 16px;
-  background: #333; /* Darker background for input boxes */
-  color: #000; /* Black text color */
-  font-size: 16px;
-}
-
-
-.btn {
-  border: none;
-  padding: 14px;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-  background: #4aed88; /* Green button color */
-  color: #fff; /* White text color */
-}
-
-.btn:hover {
-  background: #2b824c; /* Darker green on hover */
-}
-
-.createInfo,
-.createNewBtn {
-  color: #4aed88;
-  font-size: 14px;
-  margin-top: 20px;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-.createNewBtn:hover {
-  color: #368654; /* Darker green on hover */
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -305,7 +240,7 @@ canvas {
 .createInfo,
 .createNewBtn {
   color: #4aed88;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 20px;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
@@ -340,18 +275,27 @@ canvas {
 /* Styles.css */
 /* ... (previous styles) */
 
+/* ... (previous styles) */
+
 .editor-page {
   display: grid;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: 50px 1fr; /* Reduced width for the sidebar */
   height: 100vh;
 }
 
 .sidebar {
-  background: #1c1e29;
+  background: #1c1e29; /* Bluish-black background color */
   padding: 16px;
   color: #fff;
   display: flex;
   flex-direction: column;
+  height: 1500px;
+  width: 250px; /* Fixed width for the sidebar */
+  transition: width 0.3s ease; /* Smooth transition for the width */
+}
+
+.toggle-container {
+  margin-bottom: 10px; /* Adjusted margin for the toggle button container */
 }
 
 .logo {
@@ -366,21 +310,12 @@ canvas {
   margin-top: -30px;
 }
 
+
 .clients-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Adjusted grid columns */
   gap: 10px;
   margin-top: 10px;
-}
-
-.btn {
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
 .button-container{
@@ -397,6 +332,7 @@ canvas {
   background: #e74c3c; /* Red color */
   color: #fff;
   align-items: center;
+  margin-left: 20px;
 }
 
 .copy-btn:hover,
@@ -409,3 +345,6 @@ canvas {
   padding: 0px;
   overflow: auto; /* Allow scrolling when content overflows */
 }
+
+/* ... (previous styles) */
+
