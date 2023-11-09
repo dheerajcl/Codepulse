@@ -7,5 +7,5 @@ export const initSocket = async () => {
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io('http://codesynchub.me/Codepulse/', options);
+    return io(process.env.REACT_APP_BACKEND_URL, options);
 };

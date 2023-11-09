@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Codepulse/static/css/main.07685cf0.css",
-    "main.js": "/Codepulse/static/js/main.b71bcda4.js",
-    "static/js/787.4a5f9ec1.chunk.js": "/Codepulse/static/js/787.4a5f9ec1.chunk.js",
-    "index.html": "/Codepulse/index.html",
-    "main.07685cf0.css.map": "/Codepulse/static/css/main.07685cf0.css.map",
-    "main.b71bcda4.js.map": "/Codepulse/static/js/main.b71bcda4.js.map",
-    "787.4a5f9ec1.chunk.js.map": "/Codepulse/static/js/787.4a5f9ec1.chunk.js.map"
+    "main.css": "/static/css/main.07685cf0.css",
+    "main.js": "/static/js/main.c36867d6.js",
+    "static/js/787.4a5f9ec1.chunk.js": "/static/js/787.4a5f9ec1.chunk.js",
+    "index.html": "/index.html",
+    "main.07685cf0.css.map": "/static/css/main.07685cf0.css.map",
+    "main.c36867d6.js.map": "/static/js/main.c36867d6.js.map",
+    "787.4a5f9ec1.chunk.js.map": "/static/js/787.4a5f9ec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07685cf0.css",
-    "static/js/main.b71bcda4.js"
+    "static/js/main.c36867d6.js"
   ]
 }

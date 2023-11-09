@@ -2,8 +2,6 @@
 
   "name": "realtime-editor",
 
-  "homepage": "http://codesynchub.me/Codepulse/",
-
   "version": "0.1.0",
 
   "private": true,
@@ -61,10 +59,6 @@
     "start": "npm run build && npm run server:prod",
 
     "build": "react-scripts build",
-    
-    "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d build",
 
     "server:dev": "nodemon server.js",
 
@@ -113,8 +107,6 @@
   },
 
   "devDependencies": {
-
-    "gh-pages": "^6.0.0",
 
     "nodemon": "^2.0.15"
 
