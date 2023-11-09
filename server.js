@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://dheerajcl:Dheer%40j12@cluster0.ukvgapl.mongodb.net/codebase', {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
