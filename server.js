@@ -9,7 +9,6 @@ const ACTIONS = require('./src/Actions');
 const server = http.createServer(app);
 const io = new Server(server);
 
-// Connect to MongoDB
 mongoose.connect('mongodb+srv://dheerajcl:Dheer%40j12@cluster0.ukvgapl.mongodb.net/codebase', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -65,7 +64,7 @@ io.on('connection', (socket) => {
         { code },
         { upsert: true, useFindAndModify: false }
       );
-    }, 10000);
+    }, 5000);
     socket.in(roomId).emit(ACTIONS.CODE_CHANGE, { code });
   });
 
