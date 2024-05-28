@@ -34,6 +34,18 @@ Create a `.env` file in the root directory of the project by following the .env.
 
 
 
+### Alternative(Without using Docker)
 
+1. Install the dependencies
+
+    ```sh
+    npm install
+
+2. Run your Application
+
+    ```sh
+    npm start
+
+3. Access the application at http://localhost:5000
 
 
