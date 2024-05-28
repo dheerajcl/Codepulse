@@ -8,7 +8,8 @@ Create a `.env` file in the root directory of the project by following the .env.
 
 
 
-### Docker Setup
+### Getting Started
+
 
 1. Clone the repository:
 
@@ -19,6 +20,11 @@ Create a `.env` file in the root directory of the project by following the .env.
 
     ```sh
     cd Codepulse
+
+
+
+### Docker Setup
+
 
 3. Build the Docker image:
 
@@ -36,16 +42,16 @@ Create a `.env` file in the root directory of the project by following the .env.
 
 ### Alternative(Without using Docker)
 
-1. Install the dependencies
+3. Install the dependencies
 
     ```sh
     npm install
 
-2. Run your Application
+4. Run your Application
 
     ```sh
     npm start
 
-3. Access the application at http://localhost:5000
+5. Access the application at http://localhost:5000
 
 
