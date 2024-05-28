@@ -22,7 +22,6 @@ Create a `.env` file in the root directory of the project by following the .env.
     cd Codepulse
 
 
-
 ### Docker Setup
 
 
